@@ -1,0 +1,48 @@
+/* Este CSS se aplica apenas à página de horários */
+
+.info-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.info-card h3 {
+    color: #004d40;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.info-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-card ul li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.special-offer {
+    background-color: #ffcc80;
+    color: #333;
+}
+
+#buy-online {
+    background-color: #004d40;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+#buy-online:hover {
+    background-color: #00332e;
+}
