@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (ctaButton) {
         ctaButton.addEventListener('click', () => {
-            alert('Você clicou no botão! A seguir, uma página com a lista de animais seria carregada.');
+            alert('Para ver os animais clique na categoria "animais" no canto superior direito.');
             // Em um site real, você faria algo como:
             // window.location.href = 'animais.html';
         });
