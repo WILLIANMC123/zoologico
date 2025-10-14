@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
             event.preventDefault(); // Impede o envio do formulário
 
             const nome = document.getElementById('nome').value;
-            alert(`Obrigado, ${nome}! Sua mensagem foi enviada com sucesso e em breve entraremos em contato.`);
+            alert(`Obrigado, ${nome}! Esse recurso infelizmente não esta disponivel no momento`);
             
             contactForm.reset(); // Limpa os campos do formulário
         });
